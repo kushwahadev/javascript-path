@@ -32,15 +32,19 @@ myArray.shift()
 
 // slice , , splice
 
-console.log('A -> ',  myArray)
+// console.log('A -> ',  myArray)
 
 const myn1 = myArray.slice(1,3)
-console.log(myn1)
+// console.log(myn1)
 
-console.log('B -> ',  myArray)
-const myn2 = myArray.splice(1,3);
-console.log(myArray);
-console.log(myn2);
+// console.log('B -> ',  myArray)
+// const myn2 = myArray.splice(1,3);
+// console.log(myArray);
+// console.log(myn2);
+
+
+
+
 
 
 
