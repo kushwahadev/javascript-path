@@ -5,10 +5,31 @@ const b = 20;
 {
 }
 
-console.log(a);
-console.log(b);
+// console.log(a);
+// console.log(b);
 // console.log(c);
 
-for (let i = 0; i < array.length; i++) {
-  const element = array[i];
+function one() {
+  const username = "dev";
+  function two() {
+    const website = "youtube";
+    console.log(username);
+  }
+  two();
 }
+// one();
+
+if (true) {
+  const username = "dev";
+  if (username === "dev") {
+    const website = " youtube";
+    // console.log(username + website);
+  }
+  //   console.log(website) Error
+}
+// console.log(username) err
+
+// ++++++++++++++ intresting +++++++++++++
+const addTwo = function (num) {
+  return num + 2;
+};
