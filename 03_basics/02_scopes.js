@@ -12,3 +12,10 @@ console.log(b);
 for (let i = 0; i < array.length; i++) {
   const element = array[i];
 }
+function one(){
+  const username = 'dev'
+  function two(){
+    const website = 'youtube'
+    console.log()
+  }
+}
