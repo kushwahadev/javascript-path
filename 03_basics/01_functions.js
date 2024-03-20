@@ -28,5 +28,32 @@ function loginUserMsg(username) {
   return `${username} just logged in`;
 }
 
-const user = loginUserMsg("dev");
-console.log(user);
+// const user = loginUserMsg("dev");
+// console.log(user);
+
+//++++++++++++++++++++++++++( ...num -> rest and spread operator )++++++++++++++++++++++++++++++++++++++++++
+function calculateCartPrice(...num) {
+  return num;
+}
+
+// console.log(calculateCartPrice(200, 400, 500));
+
+const user = {
+  username: "hitesh",
+  price: 199,
+};
+
+function handleObject(anyobj) {
+  console.log(`Username is ${anyobj.username} and price is ${anyobj.price}`);
+}
+
+// console.log(user);
+
+console.log(
+  handleObject({
+    username: "dev",
+    price: 199,
+  })
+);
+
+const myArray = [200, 400, 500, 100];
