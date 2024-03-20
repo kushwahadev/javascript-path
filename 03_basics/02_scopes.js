@@ -30,6 +30,7 @@ if (true) {
 // console.log(username) err
 
 // ++++++++++++++ intresting +++++++++++++
+addTwo(5);
 const addTwo = function (num) {
   return num + 2;
 };
