@@ -17,7 +17,7 @@ function one() {
   }
   two();
 }
-<<<<<<< HEAD
+
 // one();
 
 if (true) {
@@ -35,12 +35,11 @@ addTwo(5);
 const addTwo = function (num) {
   return num + 2;
 };
-=======
-function one(){
-  const username = 'dev'
-  function two(){
-    const website = 'youtube'
-    console.log()
+
+function one() {
+  const username = "dev";
+  function two() {
+    const website = "youtube";
+    console.log();
   }
 }
->>>>>>> aace34737259f3f9c8d2353e9a651278509c0352
