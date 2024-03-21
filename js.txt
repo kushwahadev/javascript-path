@@ -1,0 +1,19 @@
+javascript execution context 
+
+{code} ->  global execution -> this value = object
+
+1st -> global exection context
+2nd -> function execution context
+
+
+// 3rd -> eval execution context (in mongoose)
+
+{} -> memory creation phase , execution phase 
+
+
+global exection ->>> (memory phase ->>>>> exection phase )repeat and -----
+----- whenever function call and return value goes into global
+
+// call stack
+
+
