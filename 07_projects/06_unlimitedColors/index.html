@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>unlimited color change</title>
+    <style>
+      body {
+        box-sizing: border-box;
+        background-color: #212121;
+        color: aliceblue;
+      }
+
+      nav {
+        background-color: rgb(217, 51, 51);
+        height: 4rem;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* justify-content: space-around; */
+      }
+
+      a {
+        /* color: #252525; */
+        color: aliceblue;
+        border: 1px solid #dec7c7;
+        border-radius: 0.5rem;
+        background-color: transparent;
+        height: 1rem;
+        width: fit-content;
+        padding-left: 2rem;
+        /* padding-right: 2rem; */
+        padding: 0.7rem 2rem;
+        text-decoration: none;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        margin-left: 0.7rem;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="/" aria-current="page" style="background-color: rgb(111, 13, 13)"
+        >Home</a
+      >
+      <a href="/">youtube channel</a>
+    </nav>
+    <h1>start should change the background color evry secound</h1>
+
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+
+    <script src="index.js"></script>
+  </body>
+</html>
