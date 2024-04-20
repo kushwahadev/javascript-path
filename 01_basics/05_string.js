@@ -1,22 +1,20 @@
-const name = 'dev'
+const name = "dev";
 const repo = 50;
 
+console.log(` my name is. ${name.toUpperCase()} and my repo count is ${repo}`);
 
-console.log(` my name is. ${name.toUpperCase()} and my repo count is ${repo}`)
+const gamename = new String("dev-gamming");
 
-const gamename = new String('dev-gamming')
+console.log(gamename[0]);
+console.log(gamename.__proto__);
+console.log(gamename.length);
+console.log(gamename.toUpperCase());
+console.log(gamename.indexOf("m"));
 
+const newString = gamename.substring(0, 4);
 
-console.log(gamename[0])
-console.log(gamename.__proto__)
-console.log(gamename.lenght)
-console.log(gamename.toUpperCase())
-console.log(gamename.indexOf('m'))
+const anotherString = gamename.slice(-8, 4);
 
-const newString = gamename.substring(0,4)
+const newStringOne = " dev      ";
 
-const anotherString = gamename.slice(-8,4)
-
-const newStringOne = ' dev      '
-
-console.log(newStringOne.trim())
+console.log(newStringOne.trim());
